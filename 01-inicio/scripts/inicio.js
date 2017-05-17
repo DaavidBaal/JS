@@ -32,7 +32,13 @@ var sGrupo = `<ul>
 
 // Operadorres + - * / ^
 
+//Division
 
+var x = 13 / 3;
+
+// Módulo o resto
+
+var y = 13 ^ 3;
 
 sGrupo += `<p> Añade tu otros </p>`
 
