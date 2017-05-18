@@ -28,6 +28,16 @@ function sumarArg(){
 //function sumarMal () {
  //       return + nNum1 + nNum2
 //}
+function media(){
+    let nResult = 0;
+    for (var i = 0; i < arguments.length; i++) {
+        nResult += arguments[i];
+        
+    }
+   return nResult / arguments.length;
+    
+
+}
 
 function main (){
     let nNum1 = Number(prompt(" Dime tu número",12));
@@ -38,6 +48,8 @@ function main (){
     console.log(sumarArg (nNum1, nNum2));
     console.log(sumarArg (nNum1, nNum2, nNum3));
     console.log(sumarArg (nNum1, nNum2, nNum3, nNum4,12,12));
+    console.log(media(12,24,25,26));
+    console.log(media(12,12,12,12));
 
     saludar();
 }
