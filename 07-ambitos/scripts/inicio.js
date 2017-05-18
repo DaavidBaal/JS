@@ -15,6 +15,7 @@ function main (){
     //let nNum4 = +prompt(" Dime tu otro",13);
     
     if (2){
+        //let permite dar valores dentro
         let sName = "Condicional"
         console.log(sName);
     }
