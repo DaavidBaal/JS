@@ -1,28 +1,22 @@
+(function main () {
+    let nNum1 = 0;
 
+    let compruebaEdad =  (a) => {
 
-
-
-(function main(){
-    let nNum1 =  0;
-   
-   let compruebaEdad = (a) =>{
-       if (a<18){
-           return (" Hola chaval")
-        } else if (a<50){
-            return (" Hola amigo")
-
-       } else {
-           return ("Buenos dias")
-
-       }
-   }
-    nNum1 = Number(prompt(" Dime tu edad",12));
+        if (a<18) {
+            return ("Hola chaval")
+        } else if (a < 50) {
+            return ("Hola amigo")
+        } else {
+            return ("Buenos días")            
+        }
+    }
     
 
-    let sRespuesta = compruebaEdad (nNum1);
-   
+    nNum1 = Number(prompt("Dime tu edad", 12));
     
-     console.log(nRespuesta);
-     
-      
+    let sRespuesta = compruebaEdad(nNum1);
+   
+    console.log(sRespuesta);
+
 })();
