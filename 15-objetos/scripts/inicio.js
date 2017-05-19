@@ -9,3 +9,12 @@ console.log(oSample2);
 
 oSample1.nombre = "";
 oSample2.titulo = "";
+
+oSample2.oLibro = {};
+oSample2.oLibro.titulo = "";
+
+
+console.log(oSample1);
+console.log(oSample2);
+
+let aSample = [];
