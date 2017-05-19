@@ -26,7 +26,7 @@ oFlight= {
     number: "815",
     departure : {
         claveIATA: "SYD",
-        time: Date("2004,09,22,14,55"),
+        time: new Date(2004,09,22,14,55),
         ciudad: "Sydney",
     },
     arrival : {
@@ -36,4 +36,4 @@ oFlight= {
     }
 }
 
-console.log(oFlight)
+console.log(oFlight);
