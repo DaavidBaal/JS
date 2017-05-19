@@ -1,5 +1,11 @@
-//Calculadora
+const prompt = require ("promt");
 
+//Objeto que incluye los mensajes y las variables del prompt
+var oDatos = {
+    properties: {
+        
+    }
+}
 function saludar () {
     let sSaludo = "Hola";
     console.log(sSaludo);
@@ -19,13 +25,18 @@ function multiplicar (a, b) {
 function dividir (a, b) {
     return (a) / (b);
 }
-//function sumarMal () {
- //       return + nNum1 + nNum2
-//}
+
+
 
 function main (){
-    let nNum1 = prompt(" Dime tu número");
-    let nNum2 = prompt(" Dime tu otro");
+    let nNum1 = prompt(" Introduce un número");
+    let nNum2 = prompt(" Introduce otro numero");
+
+    if () {
+        
+    } else {
+        
+    }
 
     console.log (sumar(nNum1, nNum2));
     console.log (restar(nNum1, nNum2));
