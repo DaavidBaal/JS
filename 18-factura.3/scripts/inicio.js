@@ -1,4 +1,16 @@
-// Ejercicio 19.b
+// Clases tal como aparecen en ES6
+
+
+class cliente {
+    constructor (nombre, dirección, telefono, nif){
+        this.nombre = nombre,
+        this.dirección = dirección
+        this.telefono = telefono,
+        this.nif = nif,
+
+
+    }
+}
 
 
 let oFactura1 = {
@@ -44,7 +56,7 @@ console.log(f35);
 
 //*
 
-function Cliente (Nombre, Dirección, Telefono, NIF) {
+function ClienteOld (Nombre, Dirección, Telefono, NIF) {
     this.Nombre = nombre,
         this.Dirección = Dirección
     this.Telefono = Telefono,
@@ -69,17 +81,14 @@ Factura2.prototype.empresa =
         Telefono: "xxxxxxxxx",
         NIF: "z- 65652331",
     },
-            elementos: [
-      {description: "Guantes 1", cantidad: 12, precio: 15, }
+    
+
+        elementos: [
+     { description: "Guantes 1", cantidad: 12, precio: 15, }
       {description: "Guantes 2", cantidad: 13, precio: 16, }
       {description: "Guantes 3", cantidad: 15, precio: 18, }
-      ],
-    },
-    
 
-    
-
-
+],
     informacion:{
     baseImponible: 0,
         iva :1.21,
