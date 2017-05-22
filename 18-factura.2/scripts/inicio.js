@@ -11,6 +11,13 @@ let oFactura2= {
 }
 
 function Factura (idFactura, idCliente){
+    this.empresa = {
+    Nombre:"Teamworks" ,
+    Dirección : "Calle la que Sea" ,
+    Telefono : "xxxxxxxxx",
+    NIF :"z- 65652331",
+
+    }
     this.idFactura = idFactura;
     this.idCliente = idCliente;
 }
