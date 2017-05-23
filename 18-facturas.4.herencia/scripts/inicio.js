@@ -91,7 +91,27 @@ class Factura {
 	return sHTML;
 	};
 
-}
+	class FacturaET extends Factura {
+		constructor () {this.empresa =  {
+			nombre: "Ediciones Tuatalug",
+			direccion: "c/ Libreros, 23",
+			telefono: "900900900",
+			nif: "X-25436789"
+		}
+
+	};
+	class FacturaEES extends Factura {
+		constructor () {this.empresa =  {
+			nombre: "Ediciones El Sol",
+			direccion: "c/ Libreros, 24",
+			telefono: "900900905",
+			nif: "X-25436789"
+		}
+
+		};
+			
+			
+
 
 	fact01 = new Factura(1.16, "contado")
 

@@ -34,3 +34,14 @@ let newCadena = aPalabras.join(" ")
 console.log(String.fromCharCode(65));
 console.log(aPalabras)
 console.log(newCadena)
+
+let n = (Math.random()*100)
+
+console.log(n)
+console.log(Math.ceil(n))
+console.log(Math.round(n))
+console.log(Math.floor(n))
+
+let aPoints = [40,100, 1, 5, 25, 10];
+aPoints.sort(function(a,b){return a-b})
+console.log(aPoints)

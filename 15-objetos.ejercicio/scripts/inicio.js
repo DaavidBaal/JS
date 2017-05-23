@@ -18,7 +18,7 @@ console.log(oSample1);
 console.log(oSample2);
 
 let aSample = [];
-
+let aSample2 = new Array()
 
 
 oFlight= {
@@ -34,9 +34,43 @@ oFlight= {
         time: "2004-09-23 10:42",
         ciudad: "Los Angeles",
     },
-    mostrar : () => {console.log(oFlight);
+    mostrar : function () {
+        for (let key in this) {
+            if (typeof this [key] == "function"){
+                continue
+            }else if (typeof)
+        }
+    }
+    
+    //{console.log(oFlight);
     
     }
 }
 
 oFlight.mostrar()
+
+        
+    }
+}
+oVuelo= {
+    airline: "Oceanic",
+    number: "815",
+    departure : "Sidney",
+    arrival : "Los Angeles",
+    mostrar : function () {
+
+        for (let key in this){
+              if (typeof this[key] != "function") {
+                
+                 console.log(key.toUpperCase () + " : " + this[key]);
+            }
+           
+            
+        }
+
+    }
+   
+   
+}
+
+
