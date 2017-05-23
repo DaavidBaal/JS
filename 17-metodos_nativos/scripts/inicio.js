@@ -43,5 +43,17 @@ console.log(Math.round(n))
 console.log(Math.floor(n))
 
 let aPoints = [40,100, 1, 5, 25, 10];
+
+let aPointsCopia = []
+for (var i = 0; i < aPoints.length; index++) {
+   aPointsCopia = aPoints[i];
+    
+}
+
+// Por defecto ordena alfabeticamente.
+// Se trata de una función muntable
 aPoints.sort(function(a,b){return a-b})
+
+
 console.log(aPoints)
+console.log(aPointsCopia)
